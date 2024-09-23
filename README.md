@@ -51,6 +51,12 @@ poetry install
 
 Once installed, you can use the CLI tool contrib-counter to generate a heatmap from your GitHub contributions.
 
+Requires GitHub personal access token (classic fine) with read permissions to access in an env variable. Private contributions are only viewable if private contributions are turned on in your GitHub profile.
+
+```
+export GITHUB_READ_TOKEN=XXXXXXXXXXX # Replace with an actual token
+```
+
 Example:
 
 ```bash
